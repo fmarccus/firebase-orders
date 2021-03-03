@@ -30,9 +30,9 @@ function render(doc) {
     <td>${doc.data().deliver}</td>
     <td>${doc.data().contact}</td>
     <td>${doc.data().item}</td>
-    <td>${doc.data().amount}</td>
+    <td>Php ${doc.data().amount}</td>
     <td>${doc.data().quantity}</td>
-    <td>${doc.data().total}</td>
+    <td>Php ${doc.data().total}</td>
     </tr>`)
 }
 
