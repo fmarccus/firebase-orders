@@ -31,7 +31,7 @@ function render(doc) {
     <td>${doc.data().contact}</td>
     <td>${doc.data().item}</td>
     <td>Php ${doc.data().amount}</td>
-    <td>${doc.data().quantity}</td>
+    <td>${doc.data().quantity} pcs.</td>
     <td>Php ${doc.data().total}</td>
     </tr>`)
 }
